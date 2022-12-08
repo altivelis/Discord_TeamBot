@@ -105,6 +105,7 @@ async function f_teams(ms){
         //コマンド設定
         switch(command){
             //終了 ^end
+            case "team":
             case "end":sended.delete();
                 ms.channel.status=0;
                 return;
