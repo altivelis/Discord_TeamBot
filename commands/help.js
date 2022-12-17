@@ -14,9 +14,9 @@ module.exports = {
         "/add <@mention>:メンバーにユーザーを追加\n"+
         "/remove <@mention>:メンバーからユーザーを削除\n"+
         "/join <int:n> <@mention>:チームnにユーザーを追加\n"+
-        "/leave <@mentions>:チームからユーザーを削除\n"+
+        "/leave <@mention>:チームからユーザーを削除\n"+
         "/num <int:n>:チーム数を設定\n"+
-        "/weight <int:n> <@mentions>:重み(強さ)を設定\n"+
+        "/weight <int:n> <@mention>:重み(強さ)を設定\n"+
         "/random:ランダムチーム分け\n"+
         "/balance:バランスチーム分け(強さ均等化)\n"+
         "/pick:メンバーからランダム抽選\n"+
